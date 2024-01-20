@@ -1,0 +1,23 @@
+{
+    "name_run": "final_model_1",
+    "load_model": false,
+    "learning_rate": 0.00012589254117941674,
+    "num_epochs": 100,
+    "learning_rate_decay_mult": 0.7,
+    "learning_rate_decay_step": 20,
+    "weight_decay": 6e-05,
+    "data_directory": "train_tiles",
+    "batch_size": 20,
+    "save_train_images": false,
+    "manual_seed": 100,
+    "loss_function": "BCE",
+    "weight_loss": 1.0,
+    "save_validation_imgs_interval": 0,
+    "save_validation_imgs_number": 0,
+    "save_clean_validation_imgs_interval": 0,
+    "batchnorm": true,
+    "probability_dropout": 0.0,
+    "probability_augmentation": 1.0,
+    "in_channels": 10,
+    "norm_elevation": true
+}
